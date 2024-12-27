@@ -1,6 +1,4 @@
 ﻿
-using Catalog.API.Products.GetProductByCategory;
-
 namespace Catalog.API.Products.UpdateProduct
 {
     public record UpdateProductRequest(Guid Id, string Name, List<string> Category, string Description, string Imagefile, decimal Price);
