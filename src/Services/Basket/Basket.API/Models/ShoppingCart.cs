@@ -8,9 +8,9 @@
 
         public decimal TotalPrice => Items.Sum(x => x.Price * x.Quantity);
 
-        public ShoppingCart(string Username)
+        public ShoppingCart(string userName)
         {
-            UserName = Username;
+            UserName = userName;
         }
 
         //Required for mapping
